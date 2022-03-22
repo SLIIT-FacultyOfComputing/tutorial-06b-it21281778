@@ -1,12 +1,13 @@
 #include "Student.h"
-#include <iostream>
 
 // Assign studentId and name
-Student::assignDetails() {
-  
+void Student::assignDetails(int id,char stdname[]) {
+  studentId = id;
+  name[] = stdname[];
 }
 
 // Display StudentId and Name
-Student::display() {
-  
-}
+void Student::display() {
+  std::cout<<studentId<<endl;
+  std::cout<<name;
+ }
